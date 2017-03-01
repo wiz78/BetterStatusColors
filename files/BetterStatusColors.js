@@ -13,6 +13,8 @@ jQuery( document ).ready( function()
 				status.parentsUntil( 'tr' ).addClass( classes[ 0 ] );			
 				status.hide();
 			}
+
+			jQuery( 'td.column-status span' ).css( 'color', '#393939' ); 
 		}
 	} );
 } );
