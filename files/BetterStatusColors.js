@@ -14,7 +14,7 @@ jQuery( document ).ready( function()
 				status.hide();
 			}
 
-			jQuery( 'td.column-status span' ).css( 'color', '#393939' ); 
+			jQuery( 'td.column-status > div' ).css( 'color', '#393939' ); 
 		}
 	} );
 } );
