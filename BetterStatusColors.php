@@ -59,7 +59,7 @@ class BetterStatusColorsPlugin extends MantisPlugin  {
 	}
 
 	/**
-	 * Include javascript files for chart.js
+	 * Include javascript files
 	 * @return void
 	 */
 	function resources() {
