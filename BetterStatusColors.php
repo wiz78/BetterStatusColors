@@ -32,7 +32,7 @@ class BetterStatusColorsPlugin extends MantisPlugin  {
 		$this->description = 'Make the status color more prominent';
 		$this->page = '';
 
-		$this->version = '1.0.2';
+		$this->version = '1.0.3';
 		$this->requires = array();
 
 		$this->author = 'Simone Tellini';

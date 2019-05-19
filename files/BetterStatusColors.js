@@ -10,7 +10,8 @@ jQuery( document ).ready( function()
 			classes = jQuery.grep( classes, function( c ) { return /^status-/.test( c ); } );
 
 			if( classes.length ) {
-				var colorClass = classes[0].replace('-fg', '-bg');
+				var colorClass = classes[ 0 ].replace( '-fg', '-color' );
+
 				status.parentsUntil( 'tr' ).addClass( colorClass );
 				status.hide();
 			}
