@@ -45,7 +45,7 @@ function getStatusClass( status )
 	classes = jQuery.grep( classes, function( c ) { return /^status-/.test( c ); } );
 
 	if( classes.length )
-		ret = classes[ 0 ].replace( '-fg', '-color' );
+		ret = classes[ 0 ].replace( '-fg', '-bg' );
 
 	return ret;
 }
