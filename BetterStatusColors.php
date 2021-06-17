@@ -33,7 +33,7 @@ class BetterStatusColorsPlugin extends MantisPlugin  {
 		$this->page = '';
 
 		$this->version = '1.0.3';
-		$this->requires = array();
+		$this->requires = array( 'MantisCore' => '2.0.0' );
 
 		$this->author = 'Simone Tellini';
 		$this->url = 'https://tellini.info';
